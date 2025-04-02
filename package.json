@@ -1,0 +1,14 @@
+{
+  "name": "cy-pageaction",
+  "version": "1.0.0",
+  "description": "exemplo de pageAction",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "author": "luismarques",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.2.0"
+  }
+}
