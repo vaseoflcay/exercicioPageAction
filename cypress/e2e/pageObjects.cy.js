@@ -18,7 +18,7 @@ describe('teste de autenticacao', () => {
   it('deve criar conta com sucesso', () => {
     homePage.openMenu('Account')
     cy.get('[data-testid="signUp"]').click()
-    signupPage.signup(firstName,lastName,phoneNumber,email,password,repassword)
+    signupPage.signup('luis','silva','119345654','greatester@gmail.com','senha123','senha123')
     cy.get('[data-testid="create"]').click()
     homePage.openMenu('Account')
 
